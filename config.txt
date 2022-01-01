@@ -1,2 +1,1 @@
-Time between ip checks (in seconds):
-1800
+Time between ip checks (in seconds): 1800
