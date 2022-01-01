@@ -5,9 +5,9 @@ The intended usecase is for a user to be able to know their external ip so that 
 <details open><summary> Planned Features </summary>
   
 ```
-Sending ip log to a website with password protection
-Clientside script to recieve the ip log from password protected website
-A way to configure which DNS server is used to get the external ip address
+ - Sending ip log to a website with password protection
+ - Clientside script to recieve the ip log from password protected website
+ - A way to configure which DNS server is used to get the external ip address
 ```
 </details>
 
