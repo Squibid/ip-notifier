@@ -7,8 +7,6 @@ The time between checks can be changed in `config.txt` and is defined at the end
 <details>
 <summary> ## Planned Features </summary>
 <br>
-```
-Sending ip log to a website with password protection
-Clientside script to recieve the ip log from password protected website
-```
+`Sending ip log to a website with password protection`
+`Clientside script to recieve the ip log from password protected website`
 </details>
