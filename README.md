@@ -7,9 +7,11 @@ The intended usecase is for a user to be able to know their external ip so that 
 ```
 Sending ip log to a website with password protection
 Clientside script to recieve the ip log from password protected website
+A way to configure which DNS server is used to get the external ip address
 ```
 </details>
 
 
 ## Configuring The Script
-The time between checks can be changed in `config.txt` and is defined at the end of the first line in seconds (the default is 30min).
+Easy configuration can be done in `config.txt` and will be listed below in the same order as in the config file
+* Number value that defines time between ip checks
