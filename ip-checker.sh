@@ -10,7 +10,7 @@ echo $timeStamp $currentIp >> ip-dumps.txt
 while [ currentIp != " " ]
 do
 nextIp=$(curl -s http://whatismyip.akamai.com)
-if [ "$nextIp" != "$currentip" ]; then
+if [ $nextIp != $currentip ]; then
         echo "$timeStamp New ip: $nextIp" >> ip-dumps.txt
         currentIp=$nextIp
 else
