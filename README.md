@@ -1,3 +1,4 @@
+![this is an image](https://github.com/Squibid/ip-notifier/blob/4683cfd0001ffb07261a45c03668ab0fcf37857c/ip-notifier.png)
 # ip-notifier (WIP)
 
 The intended usecase is for a user to be able to know their external ip so that they have access to their server/machine from anywhere via SSH.
