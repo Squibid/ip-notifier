@@ -1,6 +1,6 @@
 #!/bin/bash
 currentIp=$(curl -s http://whatismyip.akamai.com/)
-configFile=`cat .config`
+configFile=`cat CONFIG`
  
 set -o noclobber
 echo "$(date +"[%Y/%m/%d %H:%M:%S]") Script started" >> ip-dumps.txt
