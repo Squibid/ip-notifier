@@ -1,16 +1,17 @@
 #!/bin/bash
 currentIp=$(curl -s http://whatismyip.akamai.com/)
 configFile=`cat CONFIG`
+ipLogFile="ip-dumps"
  
 set -o noclobber
-echo "$(date +"[%Y/%m/%d %H:%M:%S]") Script started" >> ip-dumps.txt
-echo $(date +"[%Y/%m/%d %H:%M:%S]") $currentIp >> ip-dumps.txt
+echo "$(date +"[%Y/%m/%d %H:%M:%S]") Script started" >> $ipLogFile
+echo $(date +"[%Y/%m/%d %H:%M:%S]") $currentIp >> $ipLogFile
 
 while [ currentIp != " " ]
 do
 nextIp=$(curl -s http://whatismyip.akamai.com/)
 if [ "$nextIp" != $currentIp ]; then
-	echo "$(date +"[%Y/%m/%d %H:%M:%S]") New ip: $nextIp" >> ip-dumps.txt
+	echo "$(date +"[%Y/%m/%d %H:%M:%S]") New ip: $nextIp" >> $ipLogFile
 	currentIp=$nextIp
 	echo "New ip $currentIp"
 else
