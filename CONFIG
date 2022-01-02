@@ -1,1 +1,2 @@
 Ip check waittime= 1800
+Ip log file= ip-dumps
