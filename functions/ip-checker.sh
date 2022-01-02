@@ -1,6 +1,6 @@
 #!/bin/bash
 currentIp=$(curl -s http://whatismyip.akamai.com/)
-configFile=`cat config.txt`
+configFile=`cat .config`
  
 set -o noclobber
 echo "$(date +"[%Y/%m/%d %H:%M:%S]") Script started" >> ip-dumps.txt
@@ -15,6 +15,6 @@ if [ "$nextIp" != $currentIp ]; then
 	echo "New ip $currentIp"
 else
 	echo "same ip as before"
-	sleep $(echo $configFile | awk '{print $7}')
+	sleep $(echo $configFile | awk '{print $4}')
 fi
 done
