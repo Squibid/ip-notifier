@@ -8,5 +8,5 @@ if [ "$runScript" ==  "y" ]; then
         echo Running script
         ./main.sh
 else
-        echo You can manually start the script by running bash main.sh
+        echo You can manually start the program by running bash main.sh
 fi
