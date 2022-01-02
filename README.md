@@ -1,6 +1,8 @@
 # ip-notifier (WIP)
-
 The intended usecase is for a user to be able to know their external ip so that they have access to their server/machine from anywhere via SSH.
+
+### Running the program
+Once you have cloned the repository you need to run the install script by running `bash install.sh` once that is done running the program is ready and you can start it with `bash main.sh`
 
 <details open><summary> Planned Features </summary>
   
