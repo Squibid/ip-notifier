@@ -13,5 +13,5 @@ The intended usecase is for a user to be able to know their external ip so that 
 
 
 ## Configuring The Script
-Easy configuration can be done in [`config.txt`](https://github.com/Squibid/ip-notifier/blob/2de6aa007a9aade2c223d768ce085adc1b4fbe81/ip-notifier.png) and will be listed below in the same order as in the config file
+Easy configuration can be done in [`config.txt`](https://github.com/Squibid/ip-notifier/blob/ec48883567ee190247fa0e8838e4754c10455481/config.txt) and will be listed below in the same order as in the config file
 * Number value that defines time between ip checks
