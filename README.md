@@ -7,7 +7,9 @@ Once you have cloned the repository you need to run the install script by runnin
 <details open><summary> Planned Features </summary>
   
   > Sending ip log to a website with password protection
+  
   > Clientside script to recieve the ip log from password protected website
+  
   > A way to configure which DNS server is used to get the external ip address
 
 </details>
