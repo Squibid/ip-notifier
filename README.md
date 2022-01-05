@@ -15,7 +15,7 @@ Once you have cloned the repository you need to run the install script by runnin
 
 
 ## Configuring The Script
-Easy configuration can be done in [`CONFIG`](https://github.com/Squibid/ip-notifier/blob/ec48883567ee190247fa0e8838e4754c10455481/config.txt) and will be listed below in the same order as in the config file
+Easy configuration can be done in [`CONFIG`](https://github.com/Squibid/ip-notifier/blob/b6b819a027eb06b1387ed2e109c8452997207b9e/CONFIG) and will be listed below in the same order as in the config file
 * Defines the time between checking your ip
 * Defines where your ip address is logged to
 * Defines the ftp host
