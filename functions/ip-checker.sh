@@ -1,6 +1,6 @@
 #!/bin/bash
-currentIp=$(curl -s http://whatismyip.akamai.com/)
 configFile=`cat CONFIG`
+currentIp=$(curl -s http://whatismyip.akamai.com/)
 ipLogFile="$(echo $configFile | awk '{print $8}')"
  
 set -o noclobber
