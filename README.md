@@ -1,4 +1,4 @@
-# ip-notifier (WIP)
+# ip-notifier
 The intended usecase is for a user to be able to know their external ip so that they have access to their server/machine from anywhere via SSH.
 
 ### Running the program
