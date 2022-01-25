@@ -8,7 +8,7 @@ Once you have cloned the repository you need to run the install script by runnin
 
 - Tracking how your external ip changes
 - Uploading your log file via FTP **(Untested)**
-- Client script to access [file](https://github.com/Squibid/ip-notifer-client) **(Untested)**
+- [Downloading](https://github.com/Squibid/ip-notifer-client) file via FTP **(Untested)**
 
  <details><summary> Planned Features </summary>
   
