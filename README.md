@@ -13,7 +13,9 @@ Once you have cloned the repository you need to run the install script by runnin
  <details><summary> Planned Features </summary>
   
   ```
-  
+  ability to configure what method(s) are used for uploading
+  send ip via email
+  add option to track mac address
   ```
   
 </details>
