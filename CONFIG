@@ -1,5 +1,3 @@
 Ip check waittime= 1800
 Ip log file= ip-dumps
-Ftp HOST=
-Ftp USER= 
-Ftp PASSWORD= 
+Ip notification method= ftp
