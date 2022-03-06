@@ -1,7 +1,6 @@
 #!/bin/bash
 chmod +x main.sh
 chmod +x functions/ip-checker.sh
-chmod +x functions/ftp.sh
 
 read -p "Installation complete would you like to run the script [y],[n]? " runScript
 if [ "$runScript" ==  "y" ]; then
