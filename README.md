@@ -7,13 +7,12 @@ Once you have cloned the repository you need to run the install script by runnin
 ### Features
 
 - Tracking how your external ip changes
-- [Uploading](https://github.com/Squibid/ip-notifier/blob/46b83bb898a6ba0644ba5db313415506d1bfe926/functions/ftp.sh) your log file via FTP **(broken fix coming soon™)**
-- [Downloading](https://github.com/Squibid/ip-notifer-client) file via FTP **(broken fix coming soon™)**
+- [Uploading](https://github.com/Squibid/ip-notifier/blob/46b83bb898a6ba0644ba5db313415506d1bfe926/functions/ftp.sh) your log file via FTP
+- [Downloading](https://github.com/Squibid/ip-notifer-client) file via FTP
 
  <details open><summary> Planned Features </summary>
   
   ```
-  ability to configure what method(s) are used for uploading
   send ip via email
   add option to track mac address
   ```
