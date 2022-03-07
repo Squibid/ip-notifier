@@ -9,7 +9,7 @@ echo "$(date +"[%Y/%m/%d %H:%M:%S]") Script started" >> $ipLogFile
 echo "$(date +"[%Y/%m/%d %H:%M:%S]") $currentIp" >> $ipLogFile
 
 while [ currentIp != " " ]; do
-    nextIp="beans"
+    nextIp=$(curl -s http://whatismyip.akamai.com/)
     if [ "$nextIp" != $currentIp ]; then 
         echo "$(date +"[%Y/%m/%d %H:%M:%S]") New ip: $nextIp" >> $ipLogFile
         currentIp=$nextIp
