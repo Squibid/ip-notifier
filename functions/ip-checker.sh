@@ -13,10 +13,7 @@ while [ currentIp != " " ]; do
     if [ "$nextIp" != $currentIp ]; then 
         echo "$(date +"[%Y/%m/%d %H:%M:%S]") New ip: $nextIp" >> $ipLogFile
         currentIp=$nextIp
-        if [ "$ipNotMet" == "ftp" ]; then
-            python ip-ftp.py
-        if [ "$ipNotMet" == "email" ]; then
-            python ip-email.py
+        python 'ip-'$ipNotMet'.py'
     else
 		echo "same ip as before"
         sleep "$(echo $configFile | awk '{print $4}')"
