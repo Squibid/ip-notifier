@@ -15,7 +15,7 @@ while [ currentIp != " " ]; do
         currentIp=$nextIp
         python functions/'ip-'$ipNotMet'.py'
     else
-		echo "same ip as before"
+	echo "same ip as before"
         sleep "$(echo $configFile | awk '{print $4}')"
     fi
 done
