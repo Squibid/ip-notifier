@@ -7,5 +7,5 @@ ftpUploadFile='ip-dumps'
 
 ftp = FTP(ftpServerAddr)
 ftp.login(user=ftpUsername, passwd = ftpPassword)
-with open(ftpUploadFile, "wb") as file:
+with open(ftpUploadFile, "w") as file:
     ftp.retrbinary(f"RETR {ftpUploadFile}", file.write)
